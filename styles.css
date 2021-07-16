@@ -11,6 +11,10 @@ body {
 a {
   text-decoration: none;
 }
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
 /*-------------x--------- Global class ----------x------*/
 /*----------------- navigation -----------------------*/
 .nav {
@@ -20,11 +24,14 @@ a {
   min-height: 40vh;
   overflow: hidden;
 }
+.nav-menu {
+  justify-content: space-between;
+}
 .nav-brand a {
   font-size: 1.6rem;
   padding: 1rem 0;
 }
-.nav-items{
+.nav-items {
   padding-left: 40px;
 }
 /*----------------- navigation -----------------------*/
