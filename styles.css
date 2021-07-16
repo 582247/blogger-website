@@ -15,6 +15,9 @@ a {
   display: flex;
   flex-direction: row;
 }
+ul {
+  list-style-type: none;
+}
 /*-------------x--------- Global class ----------x------*/
 /*----------------- navigation -----------------------*/
 .nav {
@@ -30,8 +33,19 @@ a {
 .nav-brand a {
   font-size: 1.6rem;
   padding: 1rem 0;
+  display: block;
+  font-family: 'Abel', sans-serif;
 }
 .nav-items {
-  padding-left: 40px;
+  display: flex;
+  margin: 0;
+}
+.nav-link {
+  padding: 1.6rem 1rem;
+  font-size: 1.6rem;
+  position: relative;
+}
+.social {
+  padding: 1.4rem 0;
 }
 /*----------------- navigation -----------------------*/
