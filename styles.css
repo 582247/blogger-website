@@ -7,7 +7,11 @@ body {
   box-sizing: border-box;
   overflow: hidden;
 }
-
+/*----------------------- Global class -----------------*/
+a {
+  text-decoration: none;
+}
+/*-------------x--------- Global class ----------x------*/
 /*----------------- navigation -----------------------*/
 .nav {
   background: white;
@@ -16,9 +20,8 @@ body {
   min-height: 10vh;
   overflow: hidden;
 }
-.nav-brand a{
+.nav-brand a {
   font-size: 1.6rem;
   padding: 1rem 0;
-  text-decoration: none;
 }
 /*----------------- navigation -----------------------*/
