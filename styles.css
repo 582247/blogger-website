@@ -16,7 +16,7 @@ body {
   min-height: 10vh;
   overflow: hidden;
 }
-.nav.nav-brand a {
+.nav-brand a{
   font-size: 1.6rem;
   padding: 1rem 0;
   text-decoration: none;
