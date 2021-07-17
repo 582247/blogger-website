@@ -65,6 +65,23 @@ ul {
   position: relative;
   font-family: var(--Abel);
 }
+.toggle-collapse {
+  position: absolute;
+  top: 0;
+  width: 90%;
+  cursor: pointer;
+  display: none;
+}
+.toggle-icon {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.7rem 0;
+}
+.toggle-icon i {
+  font-size: 1.4rem;
+  color: var(--text-gray);
+}
+
 .nav-link:hover {
   background-color: var(--midnight);
 }
@@ -85,8 +102,10 @@ ul {
 /* viewpoint lwss tha nor equel to 750px */
 @media (max-width: 750px) {
   .nav .nav-menu {
-    background: black;
     flex-direction: column;
+  }
+  .toggle-collapse {
+    display: initial;
   }
 }
 /* x viewpoint lwss tha nor equel to 750px x*/
